@@ -13,13 +13,28 @@ namespace HackerRank
 			//HackerRank's 30 days of code
 
 			//Day 1 -  Combine and display data types
-			Day1.DataTypes();
+			//Day1.DataTypes();
 
 			//Day 2
-			Day2.Operators();
+			//Day2.Operators();
 
 			//Day3
-			Day3.ConditionalStatements();
+			//Day3.ConditionalStatements();
+
+			//Day4
+			int T = int.Parse(Console.In.ReadLine());
+			for (int i = 0; i < T; i++)
+			{
+				int age = int.Parse(Console.In.ReadLine());
+				Person p = new Person(age);
+				p.amIOld();
+				for (int j = 0; j < 3; j++)
+				{
+					p.yearPasses();
+				}
+				p.amIOld();
+				Console.WriteLine();
+			}
 
 			//Exit Program
 			Console.Write("\n\nPress enter to exit program");
