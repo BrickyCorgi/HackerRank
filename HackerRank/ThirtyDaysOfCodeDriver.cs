@@ -22,6 +22,7 @@ namespace HackerRank
 			//Day3.ConditionalStatements();
 
 			//Day4
+			/*
 			int T = int.Parse(Console.In.ReadLine());
 			for (int i = 0; i < T; i++)
 			{
@@ -35,7 +36,10 @@ namespace HackerRank
 				p.amIOld();
 				Console.WriteLine();
 			}
+			*/
 
+			//Day5
+			Day5.Loops();
 			//Exit Program
 			Console.Write("\n\nPress enter to exit program");
 			Console.Read();
