@@ -39,7 +39,10 @@ namespace HackerRank
 			*/
 
 			//Day5
-			Day5.Loops();
+			//Day5.Loops();
+
+			//Day6
+			Day6.Review();
 			//Exit Program
 			Console.Write("\n\nPress enter to exit program");
 			Console.Read();
