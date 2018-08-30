@@ -10,19 +10,19 @@ namespace HackerRank
 	{
 		static void Main(string[] args)
 		{
-			//HackerRank's 30 days of code
+            //HackerRank's 30 days of code
 
-			//Day 1 -  Combine and display data types
-			//Day1.DataTypes();
+            //Day 1 -  Combine and display data types
+            //Day1.DataTypes();
 
-			//Day 2
-			//Day2.Operators();
+            //Day 2
+            //Day2.Operators();
 
-			//Day3
-			//Day3.ConditionalStatements();
+            //Day3
+            //Day3.ConditionalStatements();
 
-			//Day4
-			/*
+            //Day4
+            /*
 			int T = int.Parse(Console.In.ReadLine());
 			for (int i = 0; i < T; i++)
 			{
@@ -38,11 +38,23 @@ namespace HackerRank
 			}
 			*/
 
-			//Day5
-			//Day5.Loops();
+            //Day5
+            //Day5.Loops();
 
-			//Day6
-			Day6.Review();
+            //Day6
+            //Day6.Review();
+
+            //Day7
+            //Day7.Arrays();
+
+            //Day8
+            //Day8.Dictionaries();
+
+            //Day9
+            //Day9.Recursion();
+
+            //Day10
+            Day10.Binary();
 			//Exit Program
 			Console.Write("\n\nPress enter to exit program");
 			Console.Read();
