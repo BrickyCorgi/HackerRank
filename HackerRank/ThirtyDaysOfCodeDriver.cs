@@ -54,7 +54,10 @@ namespace HackerRank
             //Day9.Recursion();
 
             //Day10
-            Day10.Binary();
+            //Day10.Binary();
+
+            //Day11
+            Day11.TwoDArray();
 			//Exit Program
 			Console.Write("\n\nPress enter to exit program");
 			Console.Read();
